@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" type="x-icon" href="icon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Crazy Monster</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+
+	 <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+	<!---header design--->
+	<header>
+		<a href="https://crazymonster.netlify.app" class="logo"><i class='bx bx-joystick' ></i>Crazy Monster</a>
+	</header>
+
+	<!---home design--->
+	<section class="home">
+		<div class="home-img">
+			<img src="gen.png" class="one">
+		</div>
+		<div class="home-text">
+			<br>
+			<h3>Lead GumpTech</h3>
+			
+			<h5>Crazy Monsters is a worldwide pokemon game, which is heavily based on the ORIGINAL Pokemon game</h5><br>
+			<h5 style="color: #87CEEB">➤Download the 32-bit/64-bit version from Google Drive for a smaller file size. </h5>
+      <h5 style="color: #87CEEB">➤iOS user must trust the app, Go to Settings > General > Vpn & Device management > Trust the app</h5>
+			<a href="https://gt-mr-sharing.s3.ap-southeast-1.amazonaws.com/CM/CrazyMonster202464.apk" class="btn"><b>Download Now</b><br>
+				<p>64BIT</p></a>
+			  <br><br>
+			<a href="itms-services://?action=download-manifest&url=https://d3ggu5tgyq6kcb.cloudfront.net/PKM/20240906/mianfest.plist" class="btn">iOS</a>
+			<br><br>
+			<a href="https://drive.google.com/drive/folders/10sH6eV2dmoIfJ_CghACs1zoNO3EI3gOS" class="btn">Google Drive</a>
+			<br><br>
+			<a href="https://api.gumptech.com/web/pay/index.do"target="_blank" class="btn">Recharge Center</a>
+                        <br><br><br>
+		</div>
+
+		<div class="social">
+			<a href="https://www.youtube.com/@reysaud6482?sub_confirmation=1"target="_blank"><i class='bx bxl-youtube' ></i></a>
+			<a href="https://discord.gg/JCvnNX5"target="_blank"><i class='bx bxl-discord-alt' ></i></a>
+			<a href="https://www.facebook.com/CrazyMonstersHere/"target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+		</div>
+	
+	</section>
+	<a href="https://crazymonster.netlify.app" class="bottom">Scroll Down<i class='bx bx-down-arrow-circle' ></i></a>
+    <footer align="Center">
+     <p color="#00e9ff">&copy; 2017-2024 Crazy Monster. All rights reserved. Created by <a href="https://discordapp.com/users/726313271623155822/"target="_blank"style="color:#fff;"><b>彡REY々SAUD彡</b></a></p>
+    </footer>
+	<script type="text/javascript">
+		function slider(anything){
+			document.querySelector('.one').src = anything;
+		};
+
+		let menu = document.querySelector('#menu-icon');
+		let navbar = document.querySelector('.navbar');
+
+		menu.onclick = () => {
+			menu.classList.toggle('bx-x');
+			navbar.classList.toggle('open');
+		}
+	</script>
+
+</body>
+</html>
